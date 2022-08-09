@@ -3,7 +3,6 @@ package com.example.demo.entities;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Id;
-import java.util.List;
 
 @Document(collation = "gameCollection")
 public class Game {
